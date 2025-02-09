@@ -1,0 +1,19 @@
+{
+    "name": "bryantoapanta/drupal-recipe-base-site",
+    "description": "Allow install the configuration of a base site",
+    "type": "drupal-recipe",
+    "authors": [
+        {
+            "name": "Bryan Toapanta",
+            "email": "bryanalexanderdc@gmail.com"
+        }
+    ],
+    "require": {
+        "metadrop/drupal-recipe-site-basic": "^1.0",
+        "metadrop/drupal-recipe-content-moderation": "^1.0",
+        "metadrop/drupal-recipe-content-type-basic-page": "^1.0",
+        "metadrop/drupal-recipe-content-type-landing": "^1.0",
+        "metadrop/drupal-recipe-webforms": "^1.0",
+        "metadrop/drupal-recipe-search": "^1.0"
+    }
+}

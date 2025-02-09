@@ -1,0 +1,31 @@
+name: "Drupal base site ES translation"
+description: "Translation of the base site recipe to Spanish"
+type: "Base"
+
+recipes:
+  - recipes/drupal-recipe-multilingual/es
+  - recipes/drupal-recipe-webforms/contact/es
+  - recipes/drupal-recipe-content-type-basic-page/es
+  - recipes/drupal-recipe-content-type-landing/es
+  - recipes/drupal-recipe-digital-experience/block_attachments/es
+  - recipes/drupal-recipe-digital-experience/block_background_carousel/es
+  - recipes/drupal-recipe-digital-experience/block_collage/es
+  - recipes/drupal-recipe-digital-experience/block_cta/es
+  - recipes/drupal-recipe-digital-experience/block_hero/es
+  - recipes/drupal-recipe-digital-experience/block_hero_comparison/es
+  - recipes/drupal-recipe-digital-experience/block_icon/es
+  - recipes/drupal-recipe-digital-experience/block_image/es
+  - recipes/drupal-recipe-digital-experience/block_increasing_numbers/es
+  - recipes/drupal-recipe-digital-experience/block_remote_video/es
+  - recipes/drupal-recipe-digital-experience/block_spacer/es
+  - recipes/drupal-recipe-digital-experience/block_story_timeline/es
+  - recipes/drupal-recipe-digital-experience/block_text/es
+  - recipes/drupal-recipe-digital-experience/block_video/es
+  - recipes/drupal-recipe-digital-experience/block_media_text/es
+  - recipes/drupal-recipe-search/es
+
+config:
+  actions:
+    user.role.*:
+      grantPermissions:
+        - 'access language es'

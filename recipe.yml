@@ -1,0 +1,36 @@
+name: 'Drupal base site'
+description: "Configuration and arquitecture of a spanish base site"
+type: 'Base'
+
+recipes:
+  - recipes/drupal-recipe-site-basic
+  - recipes/drupal-recipe-webforms/contact
+  - recipes/drupal-recipe-content-moderation
+  - recipes/drupal-recipe-content-type-basic-page
+  - recipes/drupal-recipe-content-type-basic-page/moderation
+  - recipes/drupal-recipe-content-type-landing
+  - recipes/drupal-recipe-content-type-landing/moderation
+  - recipes/drupal-recipe-search
+config:
+  actions:
+    log_entity_operations.settings:
+      simpleConfigUpdate:
+        enabled_for:
+          - block_content.attachments
+          - block_content.cta
+          - block_content.icon
+          - block_content.image
+          - block_content.remote_video
+          - block_content.text
+          - block_content.video
+          - media.document
+          - media.icon
+          - media.image
+          - media.remote_video
+          - media.video
+          - node.basic_page
+          - node.landing
+          - user.user
+    system.site:
+      simpleConfigUpdate:
+        page.front: '/home'
