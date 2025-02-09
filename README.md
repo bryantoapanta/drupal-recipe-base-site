@@ -78,18 +78,10 @@ Añade los siguientes parches:
 
 ```json
         "patches": {
-            "drupal/vlsuite": {
-                "Add bundle fields to entity field storage info - https://www.drupal.org/project/vlsuite/issues/3476173": "patches/vlsuite-3476173-entity-field-storage-info-1.patch",
-                "Allow vlsuite demo /shuttle to be installed through recipes": "patches/vlsuite-3490677-2.patch"
-            },
-            "drupal/gin": {
-                "Js error when saving reference field - https://www.drupal.org/project/gin/issues/3492920": "patches/gin-3492920-1.patch"
-            },
             "drupal/core": {
                 "Stream wrappers not registered when installing module's default config - https://www.drupal.org/project/drupal/issues/3416735": "https://git.drupalcode.org/project/drupal/-/merge_requests/10421.diff",
-                "Allow recipe command to write to the container ensuring that cache does not be cleared after a recipe installs a module - https://www.drupal.org/project/drupal/issues/3315694": "patches/drupal-core-3315694-1.patch",
                 "Call to undefined method isLayoutBuilderEnabled()": "https://www.drupal.org/files/issues/2022-09-05/3277728-7.patch",
-                "RecipeConfigInstaller should process translation config files - https://www.drupal.org/project/distributions_recipes/issues/3453331": "patches/drupal-core-3453331-recipe-translations.patch"
+                "RecipeConfigInstaller should process translation config files - https://www.drupal.org/project/distributions_recipes/issues/3453331": "https://git.drupalcode.org/project/distributions_recipes/-/merge_requests/147/diffs.patch"
 
             }
         }
