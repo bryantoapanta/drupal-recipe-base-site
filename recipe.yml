@@ -10,7 +10,6 @@ recipes:
   - recipes/drupal-recipe-content-type-basic-page/moderation
   - recipes/drupal-recipe-content-type-landing
   - recipes/drupal-recipe-content-type-landing/moderation
-  - recipes/drupal-recipe-search
 config:
   actions:
     log_entity_operations.settings:

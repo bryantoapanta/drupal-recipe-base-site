@@ -22,7 +22,6 @@ recipes:
   - recipes/drupal-recipe-digital-experience/block_text/es
   - recipes/drupal-recipe-digital-experience/block_video/es
   - recipes/drupal-recipe-digital-experience/block_media_text/es
-  - recipes/drupal-recipe-search/es
 
 config:
   actions:
