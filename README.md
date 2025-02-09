@@ -6,6 +6,10 @@ Añade estas lineas a la clave`repositories` del fichero composer.json:
 ```json
         {
             "type": "vcs",
+            "url": "https://github.com/bryantoapanta/drupal-recipe-base-site.git"
+        },
+        {
+            "type": "vcs",
             "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-content-moderation.git"
         },
         {
@@ -127,95 +131,4 @@ Desempaqueta la receta:
   composer unpack metadrop/drupal-recipe-webforms
 ```
 
-Borra estos repositorios manualmente del composer.json:
-
-```json
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-content-moderation.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-webforms.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-taxonomy-vocabularies.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-content-type-landing.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-content-type-basic-page.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-content-type-event.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-content-type-job-offer.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-content-type-member.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-content-type-news.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-content-type-project.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-content-type-publication.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-content-type-tender.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-site-basic.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-base.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-digital-experience.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-seo-analytics.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-development.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-multilingual.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-security-logging.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-solr.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-admin-theme-gin.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://gitlab.metadrop.net/metadrop-public-repositories/recipes/drupal-recipe-frontend-theme-artisan.git"
-        }
-```
+Borra los repositorios añadidos manualmente del composer.json.
